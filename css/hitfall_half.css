@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background: #207959;
+  background-image: url("../img/2_5_bg_long.png");
+}
+
+#banner {
+	background: #0D422F;
+}
+
+#icon_sidebar {
+	background: #0D422F;
+}
+
+.custom_css {
+  background: #092E2050;
+
+  border-top: 1.75vmax ridge #1FC5DB;
+  border-left: 1.75vmax ridge #1FC5DB;
+  border-right: 1vmax groove #E6AA4A;
+  border-bottom: 1vmax groove #E6AA4A;
+  border-top-left-radius: 1.25vmax;
+  border-bottom-right-radius: 0.75vmax;
+}
+
+a {
+	color: #E6AA4A;
+}
+
+a:link, a:visited {
+	color: #E6AA4A;
+}
+
+a:hover {
+	color:  #F2D29E;
+}
+
+a:focus, a:active {
+	color:  #F2D29E;
+}
+
+.btn {
+	background: #0D422F;
+}
+
+
+

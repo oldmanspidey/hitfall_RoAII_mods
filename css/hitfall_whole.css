@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-image: url("../img/hitfall_stars_full_bg.png");
+}
+
+#banner {
+	background: #433d66;
+}
+
+#icon_sidebar {
+	background: #433d66;
+}
+
+.custom_css {
+  background: #E2DEFF50;
+
+  border-top: 1.75vmax double #18F4C3;
+  border-left: 1.75vmax double #18F4C3;
+  border-right: 1vmax double #EA7AFF;
+  border-bottom: 1vmax double #EA7AFF;
+  border-top-left-radius: 1.25vmax;
+  border-bottom-right-radius: 0.75vmax;
+}
+
+a {
+	color: #18F4C3;
+}
+
+a:link, a:visited {
+	color: #18F4C3;
+}
+
+a:hover {
+	color: #18F4C3;
+}
+
+a:focus, a:active {
+	color: #18F4C3;
+}
+
+.btn {
+	background: #433d66;
+}
+
+
+

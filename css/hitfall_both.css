@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-size: 18px;
+  color: white;
+  font-family: highgate;
+
+  background-size: 100vw auto;
+  background-position: center;
+}
+
+
+/*BANNER*/
+
+#banner {
+  width: 100vw;
+  height: 10vh;
+
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+
+.switch {
+  height: 6vh;
+
+  position: fixed;
+  top: 2vh;
+  right: 2%;
+
+  transition: all 0.3s;
+}
+
+.switch:hover {
+  transform: scale(1.2);
+}
+
+#logo_div {
+
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+#logo_div
+  figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+  }
+
+.hitfall_logo {
+  height: 7.5vh;
+  max-width: 30vw;
+  transition: all 0.3s;
+}
+
+.hitfall_logo:hover {
+  transform: scale(1.1);
+}
+
+#logo_div
+  figcaption {
+    max-height: 9vh;
+    padding-left: 1.25vw;
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/*SIDE BAR*/
+
+#icon_sidebar {
+  width: 60px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+
+
+  }
+
+#icon_sidebar
+  img {
+    width:40px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.stock_icon {
+  transition: all 0.3s;
+}
+
+.stock_icon:hover {
+  transform: scale(1.2);
+}
+
+/*MAIN CONTENT*/
+
+#cc_content {
+  text-align: center;
+}
+
+#cc_content
+  h1 {
+    padding-top: 10vh;
+  }
+
+#cc_content
+  figure {
+    padding-top: 1vh;
+    text-align: center;
+  }
+
+.custom_css {
+  max-width: 20vw;
+
+  padding-top: 2vmax;
+  padding-left: 3vmax;
+  padding-right: 3vmax;
+  padding-bottom: 2vmax;
+}
+
+#cc_content
+  figcaption {
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+  }
+
+#credits {
+  position: relative;
+/*  height: 30vh;*/
+  padding-top: 15vh;
+}
+
+#credits_text {
+/*  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 65%;
+  margin: auto;*/
+}
+
+#zetterburn {
+  padding-bottom: 10vh;
+}
+
+.btn {
+  height: 5vh;
+  width: 15vw;
+
+  color: white;
+  font-family: highgate;
+  font-size: 1.75vh;
+
+  border: none;
+  border-top-left-radius: 1.25vmax;
+  border-bottom-right-radius: 0.75vmax;
+
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/*----------------------------pixel breakpoint----------------------------*/
+
+@media screen and (max-width: 125vh) {
+
+#logo_div {
+  width: 75%;
+}
+
+#logo_div
+  figure {
+    width: 75%;
+  }
+
+.hitfall_logo {
+  height: 7.25vh;
+}
+
+#logo_div
+  figcaption {
+    font-size: 2vh;
+    padding-left: 2vw;
+  }
+
+#icon_sidebar {
+  display: none;
+}
+
+#cc_content {
+  padding-bottom: 10vh;
+}
+
+#cc_content
+  h1 {
+    font-size: 2.6em;
+  }
+
+#cc_content
+  figcaption {
+    font-size: 1.8em;
+  }
+
+.custom_css {
+  min-width: 50vw;
+}
+
+#credits_text {
+  font-size: 1.2em;
+}
+
+.btn {
+
+  width: 20vw;
+
+  font-size: 1.55vh;
+}
+
+}
+
+/*----------------------------pixel breakpoint----------------------------*/
+
+@media screen and (max-height: 45vw) {
+
+#icon_sidebar {
+  display: none;
+}
+
+
+
+}
